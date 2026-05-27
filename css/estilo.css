@@ -223,9 +223,9 @@ nav a:hover {
 /* Breakpoint para dispositivos móviles y tablets */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0 10px;
     }
 
     .card {
